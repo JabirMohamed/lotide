@@ -4,11 +4,11 @@ function head(array){
 
 
 
-const assertEqual = function(head, expected){
-  if (head === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${head} ===  ${expected}`);
-  } if (head !== expected) {
-    console.log(`🛑🛑🛑 Assertion failed: ${head} !== ${expected}`);
+const assertEqual = function(actual, expected){
+  if (actual === expected) {
+    console.log(`✅✅✅ Assertion Passed: ${actual} ===  ${expected}`);
+  } if (actual !== expected) {
+    console.log(`🛑🛑🛑 Assertion failed: ${actual} !== ${expected}`);
   }
 };
 
